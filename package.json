@@ -1,14 +1,12 @@
 {
-  "name": "cdk-demo",
+  "name": "cdk-vpc",
   "version": "0.1.0",
   "bin": {
-    "cdk-demo": "bin/cdk-demo.js"
+    "cdk-vpc": "bin/cdk-vpc.js"
   },
   "scripts": {
     "build": "tsc",
-    "watch": "tsc -w",
-    "test": "jest",
-    "cdk": "cdk"
+    "watch": "tsc -w"
   },
   "devDependencies": {
     "@types/node": "18.0.3",
