@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import { App } from 'aws-cdk-lib';
-import { CdkVpcStack } from '../lib/cdk-vpc-stack';
+import { CdkQdrantNode } from '../lib/cdk-qdrant-node';
 
 const app = new App();
-new CdkVpcStack(app, 'CdkVpcStack', {
+new CdkQdrantNode(app, 'CdkQdrantNode', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */

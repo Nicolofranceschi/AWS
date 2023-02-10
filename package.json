@@ -1,8 +1,8 @@
 {
-  "name": "cdk-vpc",
+  "name": "cdk-qdrant",
   "version": "0.1.0",
   "bin": {
-    "cdk-vpc": "bin/cdk-vpc.js"
+    "cdk-qdrant": "bin/cdk-qdrant.js"
   },
   "scripts": {
     "build": "tsc",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "aws-cdk-lib": "2.31.1",
-    "constructs": "^10.1.44",
+    "constructs": "^10.1.239",
     "source-map-support": "^0.5.21"
   }
 }
